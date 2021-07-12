@@ -80,7 +80,7 @@ int main()
                 ///SI EL JUGADOR PIDE CALCULA EL PUNTAJE Y VUELVE A MOSTRAR DESPUES DE CADA PEDIDO
                 do
                 {
-                    ///MUESTRA LA CARTA DADA AL JUGADOR, PERO SOLO LA 2ª CARTA DE LA CASA
+                    ///MUESTRA LA CARTA DADA AL JUGADOR, PERO SOLO LA 2Âª CARTA DE LA CASA
                     cout<<"MANO DE LA CASA"<<endl;
                     moscarta(manocasa[1]);
                     cout<<endl;
@@ -243,7 +243,8 @@ int main()
          case 3:
         {
             rlutil::setColor(11 );
-            cout<<endl<<"El objetivo es simple:Ganarle a la casa obteniendo el puntaje más cercano a 21. Las figuras (el comodin (J),el valet (T), la Reina (Q) y el Rey(K)) valen 10, el As vale 11 o 1 y todas las otras cartas conservan su valor"<<endl<<endl;
+            cout<<endl<<"      *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+ REGLAS *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+"<<endl<<endl;
+            cout<<"El objetivo es simple:Ganarle a la casa obteniendo el puntaje mÃ¡s cercano a 21. Las figuras (el comodin (J),el valet (T), la Reina (Q) y el Rey(K)) valen 10, el As vale 11 o 1 y todas las otras cartas conservan su valor"<<endl<<endl;
         }
         rlutil::setColor(15);
         system("PAUSE");
