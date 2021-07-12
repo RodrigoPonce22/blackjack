@@ -292,7 +292,7 @@ int main()
     return 0;
 
 }
-
+///MEZCLA LAS CARTAS
 void mezcla(bool cartasdadas[])
 {
     for (int iIndex = 0; iIndex < 52; ++iIndex)
@@ -300,7 +300,7 @@ void mezcla(bool cartasdadas[])
         cartasdadas[iIndex] = false;
     }
 }
-
+///MEZCLA LAS CARTAS DE LA VERSION AUTOMATICA
 void automezcla(bool cartasauto[])
 {
     for (int index = 0; index < 52; ++index)
